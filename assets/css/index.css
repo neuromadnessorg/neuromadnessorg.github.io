@@ -22,11 +22,11 @@
 }
 
 .site-header.site-header-nav-scrolled a {
-    color: #2e2e2e;
+    color: white;
 }
 
 .site-header.site-header-nav-scrolled #site-header-brand {
-    color: #2e2e2e !important;
+    color: white !important;
 }
 
 .site-header.site-header-nav-scrolled a:hover {
