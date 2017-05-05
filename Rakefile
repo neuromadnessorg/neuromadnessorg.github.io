@@ -4,7 +4,7 @@ require "tmpdir"
 require "bundler/setup"
 require "jekyll"
 
-GITHUB_REPONAME = "neuormadnessorg/neuormadnessorg.github.io"
+GITHUB_REPONAME = "neuromadnessorg/neuromadnessorg.github.io"
 
 desc "Generate blog files"
 task :generate do
@@ -25,7 +25,7 @@ task :publish => [:generate] do
     system "git init"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
-    system "git commit -m #{message.inspect}"
+    system "git commit -m #{message.inspect} --author neuromadness"
     system "git remote add origin git@neuromadnessorg:#{GITHUB_REPONAME}.git"
     system "git push origin master --force"
 
