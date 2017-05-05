@@ -25,7 +25,7 @@ task :publish => [:generate] do
     system "git init"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
-    system "git commit -m #{message.inspect} --author neuromadness"
+    system "git commit -m #{message.inspect} --author 'neuromadnessorg <neuromadnessorg@gmail.com>"
     system "git remote add origin git@neuromadnessorg:#{GITHUB_REPONAME}.git"
     system "git push origin master --force"
 
