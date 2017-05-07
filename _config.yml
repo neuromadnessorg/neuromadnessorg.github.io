@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Neuro Madness # ex. I m Chuan
-name: NeuroMadness # ex. DONGChuan
+title: Neuro Madness
+name: NeuroMadness
 email: info@neuromadness.org
-location: Naples, FL # ex. Nice, France
+location: Naples, FL
 company: NeuroMadness
 company_url: http://neuromadness.org
-github_url: neuromadnessorg # ex. https://github.com/DONGChuan
+github_url: neuromadnessorg
 description: What is going on?
 favicon: favicon.png # Image must be in assets/images
-repository: neuromadnessorg/neuromadnessorg.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: neuromadnessorg/neuromadnessorg.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
@@ -47,42 +47,35 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: neuromadness.disqus.com
 
 # Pagination
 paginate: 10
 paginate_path: 'page:num'
 
-# Navigation. If you do not like these modules, just remove them :D
+# Navigation. To be extended
 navs:
   -
     href: /
     label: Home
 
   -
-    href: /open-source
-    label: Open-Source
-
-  -
     href: /blog
     label: Blog
-
-  -
-    href: /bookmark
-    label: Bookmark
 
   -
     href: /about
     label: About
 
 # Sidebar to show popular repo
+# XXX To remove
 side_bar_repo_limit: 5 # Number of repos to show
 
 # Google Analytics
 analytics :
   provider : google
   google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+      tracking_id : 'UA-98611517-1'  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
