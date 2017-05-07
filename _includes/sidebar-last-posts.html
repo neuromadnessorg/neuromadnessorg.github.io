@@ -1,0 +1,5 @@
+<h3 class="sidebar-title">Recent writings</h3>
+{% for post in paginator.posts %}
+  <h4>{{ post.title }}</h4>
+  <p>{{ post.excerpt | strip_html | strip | truncate: 200 }}</p>
+{% endfor %}
