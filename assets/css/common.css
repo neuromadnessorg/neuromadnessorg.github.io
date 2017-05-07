@@ -177,3 +177,10 @@
 .sidebar-title {
     text-align: center;
 }
+
+.disclaimer-box {
+    margin: 3em;
+    font-size: 0.8em;
+    border-left: 4px solid grey;
+    padding-left: 15px;
+}
