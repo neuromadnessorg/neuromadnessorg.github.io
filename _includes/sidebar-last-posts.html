@@ -1,5 +1,12 @@
 <h3 class="sidebar-title">Recent writings</h3>
 {% for post in paginator.posts %}
-  <h4>{{ post.title }}</h4>
-  <p>{{ post.excerpt | strip_html | strip | truncate: 200 }}</p>
+  <div class="card text-center">
+    <div class="thumbnail">
+      <h4>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+      </h4>
+      <p>{{ post.excerpt | strip_html | strip | truncate: 200 }}</p
+      >
+    </div>
+  </div>
 {% endfor %}
