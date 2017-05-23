@@ -5,7 +5,7 @@ category: Site
 tags: [site]
 ---
 
-Lyme disease affects millions every day, it's a poorly understood debilitating illness **caused by a bacterium called Borrelia Burgdorferi sensu lato**. It can mimic or cause all sorts of more commonly known syndromes, such as Multiple Sclerosis[citation], ALS[citation], Rheumatoid Arthritis[citation], or Alzheimer[citation]. It's a very complex illness, and if it wasn't enough, it usually presents itself with a host of other infectious agents, such as Bartonella sp, Babesia sp, Mycoplasma sp, Chlamydia and others, making the clinical picture in most cases very insidious, unspecific and thus difficult to diagnose.
+Lyme disease affects millions every day, it's a poorly understood debilitating illness **caused by a bacterium called Borrelia Burgdorferi sensu lato**. It can mimic or cause all sorts of more commonly known syndromes, such as Multiple Sclerosis[<sup><a href="#cite-1">1</a></sup>], ALS[<sup><a href="#cite-2">2</a></sup>] [<sup><a href="#cite-3">[3]</a></sup>], Rheumatoid Arthritis[<sup><a href="#cite-1">1</a></sup>], or Alzheimer[<sup><a href="#cite-5">5</a></sup>]. It's a very complex illness, and if it wasn't enough, it usually presents itself with a host of other infectious agents, such as Bartonella sp, Babesia sp, Mycoplasma sp, Chlamydia and others, making the clinical picture in most cases very insidious, unspecific and thus difficult to diagnose.
 
 And the tip of the iceberg, is that there are really powerful interests restricting treatment to those who are sick, directly or indirectly, leaving millions without it, these millions that deteriorate day after day, until they die.
 
@@ -42,7 +42,7 @@ One of it's main active compounds is **Resveratrol**, which might be familiar fo
 
 This plant appears to protect endothelial cells from damage caused by these intraceullular infections, preventing the pathogens from causing further damage, as well as functioning as a synergist, enhancing the action of other herbs or antibiotics that may be taken at the same time.
 
-The dosage Buhner recommends is as follows<sup><a href="#cite-1">[1]</a></sup>:
+The dosage Buhner recommends is as follows<sup><a href="#cite-4">[4]</a></sup>:
 
 - **Powder:** 1 teaspoon to 1 table spoon of the root powder 3x daily. Start at 1 teaspoon and work up slowly.
 (This is the form that was of most benefit to me) or...
@@ -104,4 +104,13 @@ Although the core protocol seems to be very useful by itself, having us seen it 
 
 References:
 
-<a id="cite-1">[1]</a>: Healing Lyme. Natural Healing of Lyme Borreliosis and the Coinfection Chlamydia and Spotted Fever Rickettsioses. Stephen Harrod Buhner
+<a id="cite-1">[1]</a>: <a href="https://books.google.com/books?id=QCeWncdRhQQC">Why Can't I Get Better? Solving the Mystery of Lyme and Chronic Disease</a>
+
+
+<a id="cite-2">[2]</a>: Motor neuron disease recovery associated with IV ceftriaxone and anti-Babesia therapy. DOI: 10.1111/j.1600-0404.2006.00727.x
+
+<a id="cite-3">[3]</a>: Generalised motor neuron disease as an unusual manifestation of Borrelia burgdorferi infection. DOI: 10.1136/jnnp.63.2.257
+
+<a id="cite-4">[4]</a>: Healing Lyme. Natural Healing of Lyme Borreliosis and the Coinfection Chlamydia and Spotted Fever Rickettsioses. Stephen Harrod Buhner
+
+<a id="cite-5">[4]</a>: Cystic borrelia in Alzheimer’s disease and in non-dementia neuroborreliosis. DOI: 10.1016/j.jalz.2006.05.1465
