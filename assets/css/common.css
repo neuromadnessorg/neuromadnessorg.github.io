@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+}
+
+/** Header **/
+.site-header{
+    padding-top:20px;
+    padding-bottom:20px;
+    width: 100%;
+    position: fixed;
+    margin: 40px 0 30px 0;
+    top: 0;
+    left: 0 !important;
+    right: 0;
+    z-index: 103;
+
+    color: #fff;
+    background: #000;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.site-header #site-header-brand {
+    color: white;
+    float: left;
+}
+
+.site-header a {
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: #4183c4;
+}
+
+#site-header-brand, #site-header-brand .octicon {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.site-header-nav{
+    float:right;
+    margin-bottom: -20px;
+}
+
+.site-header-nav-item {
+    color: white;
+    display:inline-block;
+    padding:10px;
+    margin-left:1.25rem;
+    font-size: 20px;
+}
+
+/******* Scroll Start *******/
+.site-header {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.site-header.site-header-nav-scrolled {
+    margin: 0;
+    background-color: black;
+
+    -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+}
+/******* Scroll End *******/
+
+/******* Scroll Start on the phone *******/
+.site-header {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.site-header.site-header-nav-scrolled-ph {
+    margin-top: -160px;
+
+    -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -ms-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+    box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+}
+/******* Scroll End *******/
+
+/** Jumbotron **/
+.jumbotron {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.jumbotron a {
+    color: #fff;
+    text-decoration: none;
+}
+.jumbotron #jumbotron-meta-info {
+    margin-top: 20px;
+}
+
+.jumbotron .meta-info {
+    font-size: 20px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.jumbotron.meta-info, .jumbotron .meta-info .octicon {
+    font-size: 18px;
+}
+
+/** Footer **/
+.site-footer{
+    position:relative;
+    margin-top:40px;
+    padding:40px 0;
+    font-size:12px;
+    line-height:1.5;
+    color:#777;
+    border-top:2px solid #eee
+}
+
+.site-footer .octicon-mark-github {
+    position: absolute;
+    left: 50%;
+    color: #ccc;
+}
+
+.site-footer .octicon-mark-github:hover {
+    color:#bbb;
+}
+
+/** Post List **/
+.post-list-item {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+}
+
+.post-list-title a {
+    text-decoration: none;
+}
+
+.post-list-description {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.post-list-meta {
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: #888;
+}
+
+.post-list-meta, .post-list-meta.octicon {
+    font-size: 18px;
+}
+
+.geopattern {
+    background-size: contain; /* To fix strange behavior when zoom in/out */
+}
+
+.front-title {
+    font-size: 30px;
+}
+
+.flash-article {
+    border: 1px solid #ccbbbb;
+    border-radius: 0.3em;
+    margin: 0.2em;
+    padding: 1em;
+}
+
+.flash-article h4 {
+    font-size: 20px;
+    box-shadow: 3px 2px 2px 0px #bbb;
+}
+
+.disclaimer-box {
+    margin: 3em;
+    font-size: 0.8em;
+    border-left: 4px solid grey;
+    padding-left: 15px;
+}
+
+.video-container {
+    margin: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.footnotes p {
+    font-size: 9.5px;
+}
