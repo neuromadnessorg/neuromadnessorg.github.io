@@ -1,12 +1,14 @@
-<h3 class="sidebar-title">Recent writings</h3>
+<div class="front-title">In-depth articles</div>
 {% for post in paginator.posts %}
-  <div class="card text-center">
-    <div class="thumbnail">
-      <h4>
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-      </h4>
-      <p>{{ post.excerpt | strip_html | strip | truncate: 200 }}</p
-      >
+  {% unless post.flash %}
+    <div class="card text-center">
+      <div class="thumbnail">
+        <h4>
+          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        <p>{{ post.excerpt | strip_html | strip | truncate: 600 }}..</p
+        >
+      </div>
     </div>
-  </div>
+  {% endunless %}
 {% endfor %}

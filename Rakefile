@@ -34,3 +34,17 @@ task :publish => [:generate] do
   end
 end
 
+desc "Create new post"
+task :post => [:create] do
+  puts "Creating new post: #{filename}"
+  open(filename, 'w') do |post|
+      post.puts "---"
+      post.puts "layout: post"
+      post.puts "title: \"#{title.gsub(/-/,' ')}\""
+      post.puts "cover: "
+      post.puts "cover_width: "
+      post.puts "---"
+      post.puts "{% include JB/setup %}"
+  end
+end
+

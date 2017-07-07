@@ -7,23 +7,23 @@ css: ['index.css', 'sidebar-popular-repo.css']
     <div class="container">
         <h1>What is going on?</h1>
         <div id="jumbotron-meta-info">
-            <span class="meta-info">
-                <span class="octicon octicon-organization"></span>
-                  Demystifying dogmas in chronic illnesses, collaboratively.
-            </span>
+            <p>
+                <span class="meta-info">
+                    <span class="octicon octicon-organization"></span> Demystifying dogmas in chronic illnesses
+                </span>
+            </p>
+            <p>
+                <span>Exploring solutions for chronic disease, from patients for patients.</span>
+            </p>
         </div>
     </div>
 </section>
 <section class="content container">
-
     <div class="row">
         <div class="col-md-8">
-
-            <h3>Stopping Madness in Chronic neurodegenerative diseases</h3>
-
-            <p>This initiative is an attempt to diminish the exponential increase of debilitating, particularly neurologic diseases, affecting millions of people every day.</p>
-
-            <!-- Pagination -->
+            <div>
+                {% include flash-news.html %}
+            </div>
             {% include pagination.html %}
         </div>
 

@@ -175,8 +175,20 @@
     background-size: contain; /* To fix strange behavior when zoom in/out */
 }
 
-.sidebar-title {
-    text-align: center;
+.front-title {
+    font-size: 30px;
+}
+
+.flash-article {
+    border: 1px solid #ccbbbb;
+    border-radius: 0.3em;
+    margin: 0.2em;
+    padding: 1em;
+}
+
+.flash-article h4 {
+    font-size: 20px;
+    box-shadow: 3px 2px 2px 0px #bbb;
 }
 
 .disclaimer-box {
@@ -190,4 +202,8 @@
     margin: 2em;
     width: 100%;
     text-align: center;
+}
+
+.footnotes p {
+    font-size: 9.5px;
 }

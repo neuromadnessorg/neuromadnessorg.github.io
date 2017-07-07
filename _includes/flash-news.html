@@ -1,0 +1,11 @@
+<div class="front-title">Flash news</div>
+{% for post in paginator.posts %}
+  {% if post.flash %}
+    <div class="flash-article">
+      <div>
+        <h4>{{ post.date | date: '%B %d, %Y' }} - {{ post.title }}</h4>
+        <p>{{ post.content }}</p>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
