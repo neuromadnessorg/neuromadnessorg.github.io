@@ -5,9 +5,11 @@ category: Lyme disease
 tags: [site]
 ---
 
-Lyme Disease affects millions every day, it's a poorly understood debilitating illness **caused by a bacterium called Borrelia Burgdorferi sensu lato**. It can mimic or cause all sorts of more commonly known syndromes, such as Multiple Sclerosis<sup><a href="#cite-1">[1]</a></sup>, ALS<sup><a href="#cite-2">[2]</a></sup><sup><a href="#cite-3">[3]</a></sup>, Rheumatoid Arthritis<sup><a href="#cite-1">[1]</a></sup>, or Alzheimer<sup><a href="#cite-5">[5]</a></sup>. It's a very complex illness, and if it wasn't enough, it usually presents itself with a host of other infectious agents, such as Bartonella sp, Babesia sp, Mycoplasma sp, Chlamydia and others, making the clinical picture in most cases very insidious, unspecific and thus difficult to diagnose.
+Lyme Disease, an infectious disease know to be spread mainly by ticks, currently affects millions every day, it's a poorly understood debilitating illness **caused by a bacterium called Borrelia Burgdorferi sensu lato**. It can mimic or cause all sorts of more commonly known syndromes, such as Multiple Sclerosis<sup><a href="#cite-1">[1]</a></sup>, ALS<sup><a href="#cite-2">[2]</a></sup><sup><a href="#cite-3">[3]</a></sup>, Rheumatoid Arthritis<sup><a href="#cite-1">[1]</a></sup>, or Alzheimer<sup><a href="#cite-5">[5]</a></sup>. It's a very complex illness, and if it wasn't enough, it usually presents itself with a host of other infectious agents, such as Bartonella sp, Babesia sp, Mycoplasma sp, Chlamydia and others, making the clinical picture in most cases very insidious, unspecific and thus difficult to diagnose.
 
-As one of the first doctors that started treating this disease, who eventually had to abandon practice, [open sourcing his work](http://www.lymenet.org/BurrGuide200810.pdf) puts it in front of the Senate in 1993, some have called this **The Lyme Disease Conspiracy**.
+If that wasn't enough, there is a big controversy around treatment approaches, some advocate for a relative short course of antibiotics, whereas some for open ended treatments, until symptoms resolve. This uncertainty have been rendering physicians who go after official treatment recommendations unable to maintain practice, leaving patients 
+
+As one of the first doctors that started treating this disease, Dr. Joseph Burrascano Jr. who eventually had to abandon practice, [open sourcing his work](http://www.lymenet.org/BurrGuide200810.pdf) puts it in front of the Senate in 1993, some have called this **The Lyme Disease Conspiracy**.
 
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/LjvTonxC__8" frameborder="0" allowfullscreen></iframe>
